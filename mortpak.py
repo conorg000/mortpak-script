@@ -35,6 +35,7 @@ def get_data(workbook):
                     for obj in val:
                         data[count].append(obj.value)
                 count += 1
+    #print(data)
     return data
 
 # Some data is stuck in elements with other data
@@ -58,6 +59,7 @@ def wrangle(data):
             else:
                 part_one.append(space[:4])
         new_data.append(part_one + part_two)
+    #print(new_data)
     return new_data
 
 def to_csv(new_data):
@@ -69,15 +71,15 @@ def to_csv(new_data):
     fhand = open("mortpak_results.csv", "w")
     for year in new_data:
         fhand.write(''.join(year[0]) + '\n')
-    for entry in year[1:]:
-        fhand.write(','.join(entry) + '\n')
+        for entry in year[1:]:
+            fhand.write(','.join(entry) + '\n')
     fhand.close()
 
 # Get name of excel workbook containing data
-input = input(Enter name of excel workbook: )
+input = input('Enter name of excel workbook: ')
 # Get data from workbook
-data = get_data(input)
+data = get_data(input + '.xlsx')
 # Edit the list of data
 new_data = wrangle(data)
 # Save to csv
-to_csv()
+to_csv(new_data)
