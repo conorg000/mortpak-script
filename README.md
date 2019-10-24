@@ -26,6 +26,8 @@ Inside there is a folder called `mortpak`. *This contains the main program and i
 
 ### In Mortpak
 
+Start `Mortpak for Windows`
+
 `File` > `Open` > (Open your `.mpl` file)
 
 `Run` application
@@ -34,7 +36,7 @@ Inside there is a folder called `mortpak`. *This contains the main program and i
 
 Choose `Microsoft Print to PDF` > `Print`
 
-`Save` it under any name
+`Save` it under any name (any location is fine)
 
 
 
@@ -58,7 +60,6 @@ Save the workbook in the `mortpak` folder within the `mortpak-script-master` fol
 
 Save the workbook under any name, but make sure it is saved as `Excel Workbook` type
 
-Open the folder named `mortpak`
 
 
 
@@ -66,9 +67,11 @@ Open the folder named `mortpak`
 
 Go to the `mortpak` folder (where we just saved the Excel Workbook)
 
-Open the `mortpak.exe` application (your computer may just display it as `mortpak`)
+Open the `mortpak.exe` application. Can't find it? Your computer may just display it as `mortpak`, but the file `Type` should be `Application`
 
-When prompted, enter the name of the Excel workbook (no need for `.xlsx` suffix, just the name will do) and press `Enter`
+If a window pops-up, saying "Windows protected your PC", click `More info`, then `Run anyway`
+
+When prompted, enter the name of the Excel workbook from earlier (no need for `.xlsx` suffix, just the name will do) and press `Enter`
 
 In `mortpak` folder, you will find `mortpak_results.csv` file
 
