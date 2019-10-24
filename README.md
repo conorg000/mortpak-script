@@ -22,6 +22,7 @@ The folder will be called `mortpak-script-master`
 
 Inside there is a folder called `mortpak`. *This contains the main program and it is where we will save our Excel Workbook later.*
 
+
 *In Mortpak*
 
 `File` > `Open` > (Open your `.mpl` file)
@@ -34,6 +35,7 @@ Choose `Microsoft Print to PDF` > `Print`
 
 `Save` it under any name
 
+
 *In Foxit Reader*
 
 Open the PDF in Foxit Reader
@@ -41,6 +43,7 @@ Open the PDF in Foxit Reader
 Select all (`Ctrl + A`)
 
 Copy (`Ctrl + C`)
+
 
 *In Excel 2016*
 
@@ -54,7 +57,8 @@ Save the workbook under any name, but make sure it is saved as `Excel Workbook` 
 
 Open the folder named `mortpak`
 
-*In mortpak folder*
+
+*In your mortpak-script-master/mortpak folder*
 
 Go to the `mortpak` folder (where we just saved the Excel Workbook)
 
