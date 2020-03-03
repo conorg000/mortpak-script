@@ -1,3 +1,5 @@
+Forked from my internship Github account, to my personal Github account
+
 # mortpak-script
 
 This is a python program for parsing Mortpak's output report into a more versatile csv format.
